@@ -21,5 +21,5 @@ tifalbot.on('ready',function(){
 
 tifalbot.on('error', console.error);
 
-tifalbot.login('NTMyNzAzOTM5MDQxNDI3NDYz.DxgkVg.0-Tb32Eolwy2akvFnTw1IXVjvFA')
+tifalbot.login(process.env.TOKEN)
 
